@@ -17,8 +17,11 @@ Khi này Command Line Tools tự động cài Git client ở thư mục /usr/bin
 
 Trường hợp 2: Bạn không dùng XCode để lập trình mà dùng tool khác để lập trình. Khi này cần cài đặt Git từ Bộ cài Git cho MacOSX ở đây . Git sẽ được cài ở thư mục /usr/local/git. File chạy thực sự sẽ ở /usr/local/git/bin/git
 
-Thường thì version git do XCode command line tools thấp hơn bản Git mới nhất tải về từ http://git-scm.com/. Nếu bạn thích dùng phiên bản mới hơn thì phải sửa biến $PATH để ưu tiên tìm git ở /usr/local/git trước.
+Thường thì version git do XCode command line tools thấp hơn bản Git mới nhất tải về từ http://git-scm.com/. 
+Nếu bạn thích dùng phiên bản mới hơn thì phải sửa biến $PATH để ưu tiên tìm git ở /usr/local/git trước.
+
 1- Mở Terminal, gõ lệnh edit ~/.bash_profile HOẶC vi ~/.bash_profile HOẶC subl ~/.bash_profile HOẶC mate ~/.bash_profile
+
 2- File .bash_profile sẽ được mở bằng trình soạn text mặc định trong Mac của bạn. Bổ xung các dòng sau đây
 
 GIT_HOME=/usr/local/git
