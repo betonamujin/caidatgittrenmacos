@@ -1,4 +1,8 @@
 # caidatgittrenmacos
+Tham khảo từ bài viết trên TechMaster
+Link: https://techmaster.vn/posts/2757/huong-dan-lap-trinh-vien-su-dung-git-2
+
+
 Cài đặt Git trên Mac OSX
 
 Kiểm tra xem Git đã được cài đặt trên Mac OSX hay chưa?
